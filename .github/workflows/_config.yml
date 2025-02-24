@@ -1,0 +1,61 @@
+title: NPML
+description: A website for our NPML project.
+theme: just-the-docs
+
+url: https://github.com/Junismyname/MajoranaHunt-Website
+
+aux_links:
+  Website Repository: https://github.com/zhtdbb1/MajoranaHunt-Website
+
+# Add custom CSS file
+just_the_docs:
+
+  # Enable Just the Docs built-in responsive menu
+  nav_enabled: true
+  search_enabled: true
+
+  
+
+nav_order: true
+
+# Sidebar structure
+nav:
+
+  - title: "Data"
+    url: /data
+    children:
+      - title: "Data Preprocessing"
+        url: /data_preprocessing
+      - title: "Parameters"
+        url: /parameters
+
+  - title: "Methods"
+    url: /methods
+    children:
+      - title: "Classification Group"
+        url: /classification
+      - title: "Regression Group"
+        url: /regression
+
+  - title: "Conclusion"
+    url: /conclusion
+
+  - title: "About Us"
+    url: /about_us
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
