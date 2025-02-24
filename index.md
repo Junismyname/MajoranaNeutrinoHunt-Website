@@ -3,9 +3,9 @@ title: Overview
 layout: home
 nav_order: 1
 ---
-# Finding Ghost Particles
+# Majorana Neutrino Hunt
 {: .fs-9 }
-Advancing energy regression in neutrino research through machine learning-driven waveform analysis.
+Identifying ghost particles from Germanium Detector.
 {: .fs-6 .fw-300 }
 
 
@@ -21,7 +21,7 @@ Advancing energy regression in neutrino research through machine learning-driven
 Our Applied Data Science project in NPML(Neutrino Physics Data Science) applies machine learning to analyze time-series data from the Majorana Demonstrator to detect energies in neutrinoless double beta decay by extracting key features and building ML/DL models.
 
 {: .important }
-This website focuses on the regression subgroup of the NPML project. For details on classification, please visit the [classification group's website]({% link  classification.md %}).
+This website focuses on the classification subgroup of the NPML project. For details on regression, please visit the [classification group's website](https://zhtdbb1.github.io/FindingGhostParticles-Website/).
 
 TBC!!
 {: .fs-6 }
@@ -60,6 +60,6 @@ TBC!!
 ## Getting started
 ----
 
-[Our repo]: https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup
-[report]: https://github.com/axie0927/FindingGhostParticles-RegressionSubgroup
-[here]: https://github.com/zhtdbb1/FindingGhostParticles-Website
+[Our repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
+[report]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
+[here]: https://github.com/Junismyname/MajoranaNeutrinoHunt-Website/
