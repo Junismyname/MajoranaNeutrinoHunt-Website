@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # Majorana Neutrino Hunt
 {: .fs-9 }
-Identifying ghost particles from Germanium Detector.
+Enhancing signal identification in the Majorana Demonstrator using machine learning.
 {: .fs-6 .fw-300 }
 
 
@@ -18,10 +18,10 @@ Identifying ghost particles from Germanium Detector.
 
 ---
 
-Our Applied Data Science project in NPML(Neutrino Physics Data Science) applies machine learning to analyze time-series data from the Majorana Demonstrator to detect energies in neutrinoless double beta decay by extracting key features and building ML/DL models.
+Our Applied Data Science project in NPML(Neutrino Physics Data Science) applies machine learning to analyze time-series data from the Majorana Demonstrator, extracting key features and developing models to distinguish signal events from background noise for improved event classification.
 
 {: .important }
-This website focuses on the classification subgroup of the NPML project. For details on regression, please visit the [classification group's website](https://zhtdbb1.github.io/FindingGhostParticles-Website/).
+This website focuses on the classification subgroup of the NPML project. For details on regression, please visit the [regression group's website](https://zhtdbb1.github.io/FindingGhostParticles-Website/).
 
 TBC!!
 {: .fs-6 }
