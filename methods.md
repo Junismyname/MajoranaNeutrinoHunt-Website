@@ -22,3 +22,5 @@ to 99.4%.
 ## LightGBM
 
 ## Random Forest
+
+For the random forest model, the processed dataset was used. This dataset had the specific features that were extracted using the parameter extraction script. The random forest was used to classify the lq label. Similar to the other models, the imblearn distribution was used to create an equal balance of data that was true and false. Once this data balance was achieved, the model was initially tested and resulted in a 91% accuracy score. After hyperparameter testing, the minimum samples and maximum tree depth  parameters were modified to make the accuracy increase to a 97% score.
