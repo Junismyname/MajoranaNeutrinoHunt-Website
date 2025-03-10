@@ -30,6 +30,53 @@ Our Applied Data Science project in NPML (Neutrino Physics Data Science) leverag
 
 Neutrinos are extremely tiny, sub atomic particles. They don't have an electric charge and they are very difficult to probe. Because their mass is very less, they don't have much gravitational force acting upon them. Neutrinos are naturally produced through interactions in the unverse such as radioactive decay or nuclear reactions.
 
+### Neutrinoless double beta decay
+
+Neutrinoless double beta decay is a rare nuclear process where two neutrons convert into two protons and emit only electrons, implying that neutrinos are their own antiparticles and that lepton number is violated. Detecting this decay would revolutionize our understanding of particle physics by confirming the Majorana nature of neutrinos, providing critical insights into their tiny masses, and potentially revealing new physics beyond the Standard Model, insights that could help explain why our universe is dominated by matter over antimatter.
+n, supernovae explosions, radioactive decays, cosmic rays, etc. 
+<center><img src="assets/images/0vbb.jpg" alt="0vbb" width="70%" height="70%"></center>
+
+<br>
+
+## Overview on data and parameters
+
+This section gives our viewers a quick look on the [data]({% link data.md %}), [extracted parameters]({% link parameters.md %}) and our goal for this project. Please click the link or the sidebar on the left for more details.
+
+### Raw Waveform
+
+The image below is an example of waveforms,there are millions of waveforms in our datasets, we can extract 12 unique features from each of the waveforms to use in our models. See the [parameters]({% link parameters.md %}) section under the data section in the sidebar for more details.
+<center><img src="assets/images/all_waveforms.png" alt="Raw Waveform" width="90%" height="90%"></center>
+<br>
+
+### Interactive plot for parameters
+
+The interactive plot below allows you to explore different extracted parameters visually. Use the dropdown menu to switch between plots and observe how each parameter behaves in the waveform analysis. This visualization provides a intuition into the key features that drive our machine learning models in the NPML project.
+
+<!-- Dropdown menu to select the image -->
+<select id="imageSelector" onchange="updateImage()">
+  <option value="assets/images/drifttime.png">Drift Time</option>
+  <option value="assets/images/latecharge.png">LQ80 Area</option>
+  <option value="assets/images/latechargeslope.png">Late Charge Slope (Area Growth Rate)</option>
+  <option value="assets/images/parameters/risingedgeslope.png">Rising Edge Slope</option>
+  <option value="assets/images/parameters/risingedgeasymmetry.png">Rising Edge Asymmetry</option>
+  <option value="assets/images/parameters/energypeak.png">Energy Peak</option>
+  <option value="assets/images/parameters/tailslope.png">Tail Slope</option>
+  <option value="assets/images/parameters/dcr.png">Delayed Charge Recovery</option>
+  <option value="assets/images/parameters/region_diff_wave.png">Fourier Transformation and LFPR</option>
+  <option value="assets/images/parameters/currentamplitude.png">Current Amplitude</option>
+</select>
+
+<!-- Display the selected image -->
+<img id="displayImage" src="assets/images/drift_time.png" alt="Selected Image" style="max-width:100%; height:auto;">
+
+<!-- JavaScript to switch images based on selection -->
+<script>
+  function updateImage() {
+    const selector = document.getElementById('imageSelector');
+    const image = document.getElementById('displayImage');
+    image.src = selector.value;
+  }
+</script>
 ----
 
 [Our Repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
