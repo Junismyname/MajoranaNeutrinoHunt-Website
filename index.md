@@ -36,8 +36,6 @@ Neutrinoless double beta decay is a rare nuclear process where two neutrons conv
 n, supernovae explosions, radioactive decays, cosmic rays, etc. 
 <center><img src="assets/images/0vbb.jpg" alt="0vbb" width="70%" height="70%"></center>
 
-<br>
-
 ### What do we want to do?
 
 We aim to enhance the identification of signal events by developing and refining machine learning models that accurately distinguish between potential indicators of neutrinoless double beta decay and background noise. We strive to optimize feature extraction from time-series waveform data to capture the subtle patterns essential for reliable classification, particularly in the critical energy regions. By improving the detection sensitivity and reducing misclassifications, our work seeks to contribute valuable insights into neutrino properties and the elusive nature of neutrinoless double beta decay, ultimately advancing our understanding of particle physics and the fundamental characteristics of neutrinos.
