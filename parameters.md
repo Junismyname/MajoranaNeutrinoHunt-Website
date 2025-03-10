@@ -53,7 +53,10 @@ The rising edge asymmetry parameter describes how tilted in a direction the risi
 
 ## Current Amplitude
 The current amplitude of a single waveform is the peak rate of charge collection, defined as I = dq/dt which means current amplitude is the derivative of charge. The reason we need that parameter is it helps distinguish between different types of events such as SSE and MSE in our particle detection project, where SSE typically shows a higher amplitude as opposed to MSE.
-
+<figure>
+    <img src="assets/images/parameters/currentamplitude.png" alt="F" width="100%" height="100%"> 
+    <figcaption style="text-align: center;">Figure 5: The current amplitude is the peak rate of charge collection. </figcaption>
+</figure>
 
 ## Energy Peak 
 After the particle hits the detector, the energy reaches its peak. A dramatic spike is visible in the energy graph. This is typically the maximum ADC count. The height of this peak correlates with the energy deposited by the particle in the detector, which is why it's used as a measure of the particle’s energy.
