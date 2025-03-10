@@ -4,6 +4,7 @@ layout: home
 nav_order: 1
 ---
 # Majorana Neutrino Hunt
+## Classification Model
 {: .fs-9 }
 Enhancing signal identification in the Majorana Demonstrator using machine learning.
 {: .fs-6 .fw-300 }
