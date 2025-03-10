@@ -10,10 +10,10 @@ Enhancing signal identification in the Majorana Demonstrator using machine learn
 
 [View it on GitHub][Our repo]{: .btn .btn-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
-[Our report][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
+[Our report][Report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
 
 {: .note }
-> The purple button above links to our project repo, click [here] or the link at the top right corner of this page to see the repo for this website.
+> The purple button above links to our project repo, click [here][Website Repo] or the link at the top right corner of this page to see the repo for this website.
 
 ---
 
