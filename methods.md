@@ -20,7 +20,7 @@ to 99.4%.
 ## XGBoost
 
 For XGBoost, the model was trained to classify our truedcr label using the our processed data. Imbalanced learning techniques were applied using SMOTE and oversampled from the False class allowing for a balanced dataset to train on. The model had a 94% accuracy as a baseline for the testing data. After that autotuners were used to find the optimal hyperparameters and improved the overall accuracy to 97%. The features that had the most impact were seen to be the low frequency power ratio and the rising edge assymetry.
-<center><img src="assets/images/roc_XGB.png" alt="F" width="50%" height="50%"><img src="assets/images/feature_importance_XGB.png" alt="F" width="50%" height="50%"></center>
+<div><img src="assets/images/roc_XGB.png" alt="F" width="45%" height="45%"> <img src="assets/images/feature_importance_XGB.png" alt="F" width="45%" height="45%"></div>
 
 ## LightGBM
 
