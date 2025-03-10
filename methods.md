@@ -26,6 +26,14 @@ For XGBoost, the model was trained to classify our truedcr label using the our p
 
 ## LightGBM
 
+A LightGBM model was developed to classify lowavse label using the processed data, effectively addressing the dataset's high dimensionality and class imbalance. The Synthetic Minority Over-sampling Technique (SMOTE) was applied to balance the classes, enabling the model to better capture the characteristics of the minority class. Hyperparameter tuning with RandomizedSearchCV was conducted, optimizing key parameters such as num_leaves, min_child_samples, and colsample_bytree to further enhance model performance.
+
+<div><img src="assets/images/roc_auc_lgb.png" alt="F" width="45%" height="45%"> <img src="assets/images/confusion_matrix_lgb.png" alt="F" width="45%" height="45%"></div>
+
+Feature importance analysis identified tdrift, lq80, and currentamp as highly influential, consistent with their physical significance related to energy deposition and detector response. The ROC curve underscored the model's strong predictive ability, reflected by an AUC of 0.99. Additionally, SHAP values confirmed that tdrift and lq80 predominantly influenced predictions, providing interpretability regarding feature contributions. The confusion matrix confirmed the model's high accuracy of approximately 97%, indicating minimal misclassification rates.
+
+<div><img src="assets/images/summary_plot_lgb.png" alt="F" width="45%" height="45%"> <img src="assets/images/feature_importance_lgb.png" alt="F" width="45%" height="45%"></div>
+
 ## Random Forest
 
 For the random forest model, the processed dataset was used. This dataset had the specific features that were extracted using the parameter extraction script. The random forest was used to classify the lq label. Similar to the other models, the imblearn distribution was used to create an equal balance of data that was true and false. Once this data balance was achieved, the model was initially tested and resulted in a 91% accuracy score. After hyperparameter testing, the minimum samples and maximum tree depth  parameters were modified to make the accuracy increase to a 97% score.
