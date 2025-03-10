@@ -14,8 +14,10 @@ nav_order: 2
 ### The LQ80 Parameter is used to measure the amount of energy being collected after 80% of the peak. This is important because multi-site events have extra energy collections that appear in this LQ80 region.
 
 ## Late Charge Slope (Area Growth Rate)
+### The Area Growth rate was a way to measure the ability of method was a measure of the growth rate of the wave form past 80% of the peak energy.
 
 ## Second derivative Inflection Points 
+### The inflection points were a way to see how many times our waveform changed from increasing to decreasing and this is important because mutlisite events have much more inflection points than a single site event would have.
 
 ## Rising Edge Slope
 ### The Rising Edge slope parameter is a way for us to measure the slope of the charge that was recorded. 
