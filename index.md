@@ -136,5 +136,5 @@ root/
 
 
 [Our Repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
-[Report]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
+[Report]: https://drive.google.com/file/d/1SNIgcu0Q9OsSKsQKccAGC28tALWp_-kk/view?usp=share_link
 [Website Repo]: https://github.com/Junismyname/MajoranaNeutrinoHunt-Website/
