@@ -46,6 +46,10 @@ The rising edge asymmetry parameter describes how tilted in a direction the risi
     <img src="assets/images/parameters/risingedgeasymmetry.png" alt="F" width="100%" height="100%"> 
     <figcaption style="text-align: center;">Figure 5: This rising edge is a single site event with a REA of 1.316147266130899</figcaption>
 </figure>
+<figure>
+    <img src="assets/images/parameters/REA2.png" alt="F" width="100%" height="100%"> 
+    <figcaption style="text-align: center;">Figure 6: Comparatively this rising edge is a multi-site event and has a REA of 0.7821869431061642</figcaption>
+</figure>
 
 ## Current Amplitude
 The current amplitude of a single waveform is the peak rate of charge collection, defined as I = dq/dt which means current amplitude is the derivative of charge. The reason we need that parameter is it helps distinguish between different types of events such as SSE and MSE in our particle detection project, where SSE typically shows a higher amplitude as opposed to MSE.
