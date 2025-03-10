@@ -9,12 +9,15 @@ nav_order: 2
 
 ## Drift Time
 The drift time (tdrift) is defined as the time taken from the initiation of charge generation to the collection at the detector's point contact. This drift time correlates with the location of the event inside the detector, as interactions that occur further from the point contact result in longer drift times due to the greater distance the charge must travel.
-<div><img src="assets/images/parameters/drifttime.png" alt="F" width="100%" height="100%"><div>
+<figure>
+    <img src="assets/images/parameters/drifttime.png" alt="Drift Time" width="100%" height="100%">
+    <figcaption style="text-align: center;">Figure 1: Illustration of Drift Time</figcaption>
+</figure>
 
 
 ## Late Charge (lq80)
 The LQ80 Parameter is used to measure the amount of energy being collected after 80% of the peak. This is important because multi-site events have extra energy collections that appear in this LQ80 region.
-<div><img src="assets/images/parameters/latecharge.png" alt="F" width="100%" height="100%"><div>
+    <div><img src="assets/images/parameters/latecharge.png" alt="F" width="100%" height="100%"><div>
 
 
 ## Late Charge Slope (Area Growth Rate)
