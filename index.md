@@ -38,6 +38,11 @@ n, supernovae explosions, radioactive decays, cosmic rays, etc.
 
 <br>
 
+### What do we want to do?
+
+We aim to enhance the identification of signal events by developing and refining machine learning models that accurately distinguish between potential indicators of neutrinoless double beta decay and background noise. We strive to optimize feature extraction from time-series waveform data to capture the subtle patterns essential for reliable classification, particularly in the critical energy regions. By improving the detection sensitivity and reducing misclassifications, our work seeks to contribute valuable insights into neutrino properties and the elusive nature of neutrinoless double beta decay, ultimately advancing our understanding of particle physics and the fundamental characteristics of neutrinos.
+
+
 ## Overview on data and parameters
 
 This section gives our viewers a quick look on the [data]({% link data.md %}), [extracted parameters]({% link parameters.md %}) and our goal for this project. Please click the link or the sidebar on the left for more details.
