@@ -7,7 +7,7 @@ nav_order: 5
 
 ### Ketki Chakradeo
 [LinkedIn](https://www.linkedin.com/in/ketki-chakradeo/)
-**Fun Fact:** I have lived in San Diego my whole life!
+[GitHub](https://github.com/ketkichakradeo)
 
 ### Marco Sanchez
 [LinkedIn](https://www.linkedin.com/in/marco-sanchez-70aa62253/)
@@ -16,6 +16,8 @@ nav_order: 5
 ### Jun-Hee Hwang
 [LinkedIn](https://www.linkedin.com/in/jun-hee-hwang/)
 [GitHub](https://github.com/Junismyname)
+
+### Ryan Doh
 
 ## Our Mentors
 
