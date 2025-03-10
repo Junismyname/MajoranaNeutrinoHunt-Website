@@ -18,6 +18,7 @@ cross-validation to check for overfitting. These optimizations increased the mod
 to 99.4%.
 <div><img src="assets/images/catboostroc.png" alt="F" width="45%" height="45%"> <img src="assets/images/catboostfeatures.png" alt="F" width="45%" height="45%"></div>
 
+<br>
 
 ## XGBoost
 

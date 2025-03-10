@@ -11,6 +11,7 @@ nav_order: 5
 
 ### Marco Sanchez
 [LinkedIn](https://www.linkedin.com/in/marco-sanchez-70aa62253/)
+[GitHub](https://github.com/msanch023)
 
 ### Jun-Hee Hwang
 [LinkedIn](https://www.linkedin.com/in/jun-hee-hwang/)
