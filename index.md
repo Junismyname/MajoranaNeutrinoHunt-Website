@@ -54,9 +54,9 @@ The interactive plot below allows you to explore different extracted parameters 
 
 <!-- Dropdown menu to select the image -->
 <select id="imageSelector" onchange="updateImage()">
-  <option value="assets/images/drifttime.png">Drift Time</option>
-  <option value="assets/images/latecharge.png">LQ80 Area</option>
-  <option value="assets/images/latechargeslope.png">Late Charge Slope (Area Growth Rate)</option>
+  <option value="assets/images/parameters/drifttime.png">Drift Time</option>
+  <option value="assets/images/parameters/latecharge.png">LQ80 Area</option>
+  <option value="assets/images/parameters/latechargeslope.png">Late Charge Slope (Area Growth Rate)</option>
   <option value="assets/images/parameters/risingedgeslope.png">Rising Edge Slope</option>
   <option value="assets/images/parameters/risingedgeasymmetry.png">Rising Edge Asymmetry</option>
   <option value="assets/images/parameters/energypeak.png">Energy Peak</option>
