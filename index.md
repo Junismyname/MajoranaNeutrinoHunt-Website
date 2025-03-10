@@ -9,6 +9,7 @@ Enhancing signal identification in the Majorana Demonstrator using machine learn
 {: .fs-6 .fw-300 }
 
 [View it on GitHub][Our repo]{: .btn .btn-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+
 [Our report][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
 
 {: .note }
@@ -31,6 +32,6 @@ Neutrinos are extremely tiny, sub atomic particles. They don't have an electric 
 
 ----
 
-[Our Project Repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
+[Our Repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
 [Report]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
 [Website Repo]: https://github.com/Junismyname/MajoranaNeutrinoHunt-Website/
