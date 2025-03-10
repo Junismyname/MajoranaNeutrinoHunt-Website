@@ -67,7 +67,7 @@ The interactive plot below allows you to explore different extracted parameters 
 </select>
 
 <!-- Display the selected image -->
-<img id="displayImage" src="assets/images/drift_time.png" alt="Selected Image" style="max-width:100%; height:auto;">
+<img id="displayImage" src="assets/images/drifttime.png" alt="Selected Image" style="max-width:100%; height:auto;">
 
 <!-- JavaScript to switch images based on selection -->
 <script>
