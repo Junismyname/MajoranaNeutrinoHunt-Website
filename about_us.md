@@ -9,6 +9,10 @@ nav_order: 5
 [LinkedIn](https://www.linkedin.com/in/ketki-chakradeo/)
 **Fun Fact:** I have lived in San Diego my whole life!
 
+### Marco Sanchez
+[LinkedIn](https://www.linkedin.com/in/marco-sanchez-70aa62253/)
+
+
 
 
 ## Our Mentors

@@ -9,7 +9,7 @@ nav_order: 2
 
 ## Drift Time
 ### The drift time (tdrift) is defined as the time taken from the initiation of charge generation to the collection at the detector's point contact. This drift time correlates with the location of the event inside the detector, as interactions that occur further from the point contact result in longer drift times due to the greater distance the charge must travel.
-<div><img src="assets/images/parameters/drifttime.png" alt="F" width="75%" height="75%">
+<div><img src="assets/images/parameters/drifttime.png" alt="F" width="100%" height="100%">
 
 
 ## Late Charge (lq80)
