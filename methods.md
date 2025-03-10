@@ -16,9 +16,7 @@ model configuration achieved an accuracy of 96.5%. To improve performance, hyper
 tuning was performed using RandomizedSearchCV, along with feature importance analysis and
 cross-validation to check for overfitting. These optimizations increased the model's accuracy
 to 99.4%.
-
 <div><img src="assets/images/catboostroc.png" alt="F" width="45%" height="45%"> <img src="assets/images/catboostfeatures.png" alt="F" width="45%" height="45%"></div>
-
 
 ## XGBoost
 

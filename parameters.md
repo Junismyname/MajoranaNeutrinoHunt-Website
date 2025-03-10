@@ -13,7 +13,6 @@ nav_order: 2
 
 
 ## Late Charge (lq80)
-
 ### The LQ80 Parameter is used to measure the amount of energy being collected after 80% of the peak. This is important because multi-site events have extra energy collections that appear in this LQ80 region.
 <div><img src="assets/images/parameters/latecharge.png" alt="F" width="100%" height="100%"><div>
 
