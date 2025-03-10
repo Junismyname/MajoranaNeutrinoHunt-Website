@@ -18,7 +18,8 @@ nav_order: 5
 [GitHub](https://github.com/Junismyname)
 
 ### Ryan Doh
-
+[LinkedIn](https://www.linkedin.com/in/ryan-doh-1b07431aa/)
+[GitHub](https://github.com/rtdoh55)
 ## Our Mentors
 
 ### Professor Aobo Li
