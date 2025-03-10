@@ -79,6 +79,59 @@ The interactive plot below allows you to explore different extracted parameters 
 </script>
 ----
 
+## Installation Instructions
+How to clone the repository:
+``` bash
+git clone https://github.com/matthewsegovia/MajoranaNeutrinoHunt.git
+``` 
+In order to clone the dependencies needed for our project, follow the next steps. Make sure you have Anaconda installed.<br><br>
+
+### Anaconda Environemnt Instructions
+#### 1. Replace `name_of_environment` with a name you like:
+``` bash
+conda env create -f environment.yml --name name_of_environment
+```
+#### 2. Activate the environment:
+``` bash
+conda activate name_of_environment
+```
+### Download the Proprocessed Dataset:
+Download the preprocessed data from this [link](https://drive.google.com/drive/folders/1SnmQemcXWPvKvJBmGkd0hSqTQ8gbs0C4), These data files were pre processed using the Master.py script in the src folder.
+
+## File Explanation
+root/
+- src/
+  - classification-models/ : each folder contains the notebook with the model code and results, as well as the results from the model being run on the NPML dataset. Extra documents include visualizations for the model.
+    - catboost/
+    - randomforest/
+    - lightgbm/
+    - svm/
+    - XGBoost/
+  - NPML/
+    - npmlcombine.py : script to run on NPML dataset
+    - npmlpredictions.csv : predictions from classification models run on NPML dataset
+  - parameter-functions: each file contains a script to extract a specific parameter
+    - agr.py
+    - current_amplitude.py
+    - dcr.py
+    - fourier_lfpr.py
+    - inflection.py
+    - lq80.py
+    - peakandtailslope.py
+    - rea.py
+    - rising_edge.py
+    - tdrift.py
+  - Master.py: combined all parameter extraction functions into one script. This was used to pre-process the data.
+  - removedupes.py: removes duplicates from the dataset
+- README.md
+- environment.yml: Anaconda Environment file
+- requirements.txt: requirements file
+
+
+## Further Reading
+[Majorana Demonstrator Data Release Notes](https://arxiv.org/pdf/2308.10856)
+
+
 [Our Repo]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
 [Report]: https://github.com/matthewsegovia/MajoranaNeutrinoHunt
 [Website Repo]: https://github.com/Junismyname/MajoranaNeutrinoHunt-Website/
